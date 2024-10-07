@@ -26,4 +26,4 @@ function final_report {
     echo -e "\e[35m#################################################\e[0m"
 }
 
-final_report $1 $2 $3
+final_report $1
