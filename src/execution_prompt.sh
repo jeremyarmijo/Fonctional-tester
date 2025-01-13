@@ -11,7 +11,7 @@ function execution_prompt {
     nb=0
     printf "\n"
     to_execute=$(echo $@)
-    $to_execute
+    eval $to_execute
     RETURN_PROMPT=$(echo $?)
     while [ $nb != $line_length ]; do
         printf "#"
