@@ -27,4 +27,4 @@ function elapsed_time_execution {
     return $rv_value
 }
 
-elapsed_time_execution $1 $2 $3
+elapsed_time_execution "$1" "$2" "$3"

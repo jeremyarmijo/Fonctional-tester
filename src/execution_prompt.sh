@@ -21,4 +21,4 @@ function execution_prompt {
     return $RETURN_PROMPT
 }
 
-execution_prompt $1
+execution_prompt "$1"

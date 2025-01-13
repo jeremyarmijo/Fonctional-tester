@@ -23,4 +23,4 @@ function return_value_test {
     return $Exit_status
 }
 
-return_value_test $1 $2 $3 $4
+return_value_test "$1" "$2" "$3"

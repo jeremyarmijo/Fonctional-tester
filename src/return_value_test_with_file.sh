@@ -25,4 +25,4 @@ function return_value_test_with_file {
     return $Exit_status
 }
 
-return_value_test_with_file $1 $2 $3 $4 $5
+return_value_test_with_file "$1" "$2" "$3" "$4"

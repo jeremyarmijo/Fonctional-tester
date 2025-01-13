@@ -28,4 +28,4 @@ function cmp_output {
     return $Exit_status
 }
 
-cmp_output $1 $2 $3
+cmp_output "$1" "$2" "$3"

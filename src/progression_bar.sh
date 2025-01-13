@@ -19,4 +19,4 @@ function progression_bar {
     printf "]"
     printf "\033[$(($line_length - $var - 7))C $(($var / $nb_step))0%%\n"
 }
-progression_bar $1
+progression_bar "$1"
