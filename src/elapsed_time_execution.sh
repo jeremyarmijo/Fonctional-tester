@@ -21,7 +21,7 @@ function elapsed_time_execution {
         echo -e "\e[34m#\t\e[0m\e\e[31m[FAIL] time execution = $execution_time \e[0m\t\t\e[34m#\e[0m"
         rv_value=84
         else
-            echo -e "\e[34m#\t\e[0m\e\e[32m[PASS] time execution = $execution_time \e[0m\t\t\e[34m#\e[0m"
+            echo -e "\e[34m#\t\e[0m\e\e[32m[PASS] time execution = $execution_time second \e[0m\t\e[34m#\e[0m"
     fi
     echo -e "\e[34m#################################################\e[0m\n"
     return $rv_value
